@@ -61,4 +61,4 @@ export const buildChatworkErrorMessage = (
   ].join("\n");
 };
 const openIssueLink =
-  "https://github.com/shikajiro/actions-mention-to-chatwork/issues/new";
+  "https://github.com/chatwork/actions-mention-to-chatwork/issues/new";

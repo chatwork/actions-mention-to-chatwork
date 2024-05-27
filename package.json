@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shikajiro/actions-mention-to-chatwork.git"
+    "url": "git+https://github.com/chatwork/actions-mention-to-chatwork.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shikajiro/actions-mention-to-chatwork/issues"
+    "url": "https://github.com/chatwork/actions-mention-to-chatwork/issues"
   },
-  "homepage": "https://github.com/shikajiro/actions-mention-to-chatwork#readme"
+  "homepage": "https://github.com/chatwork/actions-mention-to-chatwork#readme"
 }
