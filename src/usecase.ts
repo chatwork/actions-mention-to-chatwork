@@ -62,7 +62,8 @@ export const execPrReviewRequestedMention = async (
     const prUrl = pr?.html_url;
     const prTitle = pr?.title;
 
-    const message = `[To:${account.account_id}] (bow) has been requested to review PR:${prTitle} ${prUrl} by ${requestUsername}.`;
+    const changesInfo = `+${pr.additions} -${pr.deletions}, ${pr.changed_files} files`;
+    const message = `[To:${account.account_id}] (bow) has been requested to review PR:${prTitle}\n${changesInfo}\n${prUrl} by ${requestUsername}.`;
     const { apiToken } = allInputs;
 
     const exist = await ChatworkRepositoryImpl.existChatworkTask(
