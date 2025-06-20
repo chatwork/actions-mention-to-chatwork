@@ -5,6 +5,9 @@ type GithubGetPR = {
   requested_reviewers: GithubGetReviewerNameResult[];
   title: string;
   html_url: string;
+  additions: number;
+  deletions: number;
+  changed_files: number;
 };
 
 type GithubGetReviewerNameResult = {
